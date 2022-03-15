@@ -1,5 +1,6 @@
 import './App.css';
 import './components/Navbar/Navbar'
+import Home from './pages/Home'
 import Navbar from './components/Navbar/Navbar';
 import Jumbotron from './components/Jumbotron/Jumbotron'
 
@@ -10,7 +11,7 @@ function App() {
         <Navbar/>
       </header>
       <main>
-        <Jumbotron/>
+        <Home/>
       </main>
       <footer>
         footer
