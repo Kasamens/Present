@@ -3,8 +3,10 @@ import './Jumbotron.css';
 
 const Jumbotron = () => (
   <div className="Jumbotron">
-    <h1>Ambrosia</h1>
-    <h3>feast like a god</h3>
+    <span id="banner">
+      <h1>Ambrosia</h1>
+      <h3>feast like a god</h3>
+    </span>
     <span id='image-group'>
       <img src={require('../../images/pancake.jpg')}/>
       <img src={require('../../images/pancake.jpg')}/>

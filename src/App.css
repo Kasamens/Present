@@ -1,6 +1,7 @@
-body{
+.App{
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 header{
@@ -12,10 +13,12 @@ header{
 main{
   display: flex;
   justify-content: center;
+  flex: 1 0 auto;
 }
 
 footer{
   display: flex;
-  margin-top: auto;
   border: solid black;
+  height: 50px;
+  justify-content: center;
 }
