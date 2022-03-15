@@ -1,0 +1,30 @@
+.Jumbotron {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    align-items: center;
+    border: solid black;
+    
+}
+
+.Jumbotron h1{
+    font-size: 100px;
+    font-family: cursive;
+    margin: 0px;
+}
+
+.Jumbotron h3{
+    margin: 10px;
+}
+
+#image-group{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#image-group img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
