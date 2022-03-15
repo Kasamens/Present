@@ -4,7 +4,7 @@ import Banner from "../../components/Banner/Banner"
 function About(){
     return(
         <div class='container'>
-            <div id='banner'>
+            <div id='about-banner'>
                 <Banner/>
             </div>
             <div id='card-group'>
