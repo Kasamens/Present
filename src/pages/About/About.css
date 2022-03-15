@@ -38,3 +38,26 @@
 #about-banner h3{
     margin: 5px;
 }
+
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#welcome-card{
+    display: flex;
+    flex-direction: column;
+}
+#welcome-card img{
+    height: 100px;
+    width: 70%;
+    align-self: center;
+    border: solid gold 5px;
+}
