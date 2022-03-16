@@ -1,0 +1,22 @@
+#layout{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+    height: 100vh - -5px;
+}
+
+#gallery{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px ;
+}
+
+#gallery-banner h1{
+    font-size: 50px;
+}
+
+#gallery-banner h3{
+    font-size: 10px;
+}

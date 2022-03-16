@@ -45,9 +45,25 @@ function About(){
                     <h2>WELCOME</h2>
                     <br></br>
                     <img src= {require('../../images/pancake.jpg')}/>
+                    <p>We provide a vast array of divine dishes prepared 
+                        by exquisite world-class chefs from all over the world.
+                        Fill your belly with nourishment fit for gods.
+                    </p>
                 </div>
                 <div class='card' id='services-card'>
                     <h2>SERVICES</h2>
+                    <br></br>
+                    <ul>
+                        <li>Transport Catering</li>
+                        <li>Airline Services</li>
+                        <li>Ship Services</li>
+                        <li>Surface Catering</li>
+                        <li>Outdoor Parties</li>
+                        <li>Retail Store Catering</li>
+                        <li>Club Catering</li>
+                        <li>Welfare Catering</li>
+                        <li>Industrial Catering</li>
+                    </ul>
                 </div>
             </div>
         
