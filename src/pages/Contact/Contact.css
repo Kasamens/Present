@@ -5,9 +5,31 @@
 
 .double-container{
     display: flex;
+    height: 250px;
+   
 }
 
 form{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+    margin: 5px;
+}
+
+form > button{
+    width: 100px;
+    border-radius: 20px;
+}
+
+form > input{
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+iframe{
+    width: 50%;
+    height: 100%;
+    border: solid 1px;
 }
