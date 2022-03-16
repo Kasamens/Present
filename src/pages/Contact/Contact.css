@@ -1,0 +1,13 @@
+#contact-layout{
+    display: flex;
+    flex-direction: column;
+}
+
+.double-container{
+    display: flex;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
