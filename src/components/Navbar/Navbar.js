@@ -1,13 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => (
   <div className="Navbar">
-          <button>home</button>
-          <button>about</button>
-          <button>gallery</button>
-          <button>contact</button>
+          <Link to={"./"}>home</Link>
+          <Link to={"./About"}>about</Link>
+          <Link to={"./Gallery"}>gallery</Link>
+          <Link to={"./Contact"}>contact</Link>
   </div>
 );
 
