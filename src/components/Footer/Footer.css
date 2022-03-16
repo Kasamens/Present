@@ -1,0 +1,29 @@
+#footer{
+    display: flex;
+    border: solid black;
+    height: 50px;
+    justify-content: space-between;
+  }
+
+#social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    align-items: center;
+}
+
+#footer-banner h1{
+    font-size: 15px
+}
+#footer-banner h3{
+    font-size: 7px
+}
+
+#contact-details{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    font-size: 10px;
+}

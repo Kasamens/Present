@@ -5,6 +5,7 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Gallery from './pages/Gallery/Gallery';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 function App() {
@@ -22,9 +23,7 @@ function App() {
               <Route exact path='/contact' element={<Contact/>}/>
           </Routes>
         </main>
-        <footer>
-          footer
-        </footer>
+        <Footer/>
     </div>
   </Router>
   );
