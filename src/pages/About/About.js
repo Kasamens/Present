@@ -44,7 +44,7 @@ function About(){
                 <div class='card' id='welcome-card'>
                     <h2>WELCOME</h2>
                     <br></br>
-                    <img src= {require('../../images/pancake.jpg')}/>
+                    <img src= {require('../../images/chapati.jpeg')}/>
                     <p>We provide a vast array of divine dishes prepared 
                         by exquisite world-class chefs from all over the world.
                         Fill your belly with nourishment fit for gods.

@@ -11,12 +11,14 @@
 #image-group{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
+    margin-top: 30px;
 }
 
 
+
 #image-group img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
 }

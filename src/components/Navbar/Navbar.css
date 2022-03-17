@@ -12,3 +12,11 @@
     border: none;
     color: white;
 }
+
+.links{
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+}
