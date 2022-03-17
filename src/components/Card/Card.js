@@ -1,10 +1,9 @@
 import './Card.css'
 
-const Card = () =>{
+const Card = (image) =>{
     return(
         <div id='card'>
-            <img id="card-image" src= {require('../../images/pancake.jpg')}/>
-            <p>Egusi for the pain</p>
+            <img id="card-image" src= {image.image}/>
         </div>
     )
 }

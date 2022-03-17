@@ -22,8 +22,10 @@
 #contact-details{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 p{
     font-size: 10px;
+    margin: 10px;
 }
