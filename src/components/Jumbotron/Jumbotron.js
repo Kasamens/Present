@@ -6,11 +6,11 @@ const Jumbotron = () => (
   <div className="Jumbotron">
     <Banner/>
     <span id='image-group'>
-      <img src={require('../../images/akple.jpeg')}/>
-      <img src={require('../../images/banku.jpeg')}/>
-      <img src={require('../../images/egusi.jpeg')}/>
-      <img src={require('../../images/fufu.jpeg')}/>
-      <img src={require('../../images/pizza.jpeg')}/>
+      <img src={require('../../images/akple.jpg')}/>
+      <img src={require('../../images/banku.jpg')}/>
+      <img src={require('../../images/egusi.jpg')}/>
+      <img src={require('../../images/fufu.jpg')}/>
+      <img src={require('../../images/pizza.jpg')}/>
     </span>
   </div>
 );

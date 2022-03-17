@@ -12,17 +12,17 @@ const Gallery = () => {
                 <Banner/>
             </div>
                 <div id='gallery'>
-                    <Card image= {require('../../images/egusi.jpeg')} caption='Egusi'/>
-                    <Card image= {require('../../images/akple.jpeg')} caption='Akple'/>
-                    <Card image= {require('../../images/banku.jpeg')} caption='Banku'/>
-                    <Card image= {require('../../images/chapati.jpeg')} caption='Chapati'/>
-                    <Card image= {require('../../images/fried rice.jpeg')} caption='Fried Rice'/>
-                    <Card image= {require('../../images/fries.jpeg')} caption='Fries'/>
-                    <Card image= {require('../../images/fufu.jpeg')} caption='Fufu'/>
-                    <Card image= {require('../../images/jollof.jpeg')} caption='Jollof'/>
-                    <Card image= {require('../../images/pizza.jpeg')} caption='Pizza'/>
-                    <Card image= {require('../../images/spaghetti.jpeg')} caption='Spaghetti'/>
-                    <Card image= {require('../../images/springrolls.jpeg')} caption='Springrolls'/>
+                    <Card image= {require('../../images/egusi.jpg')} caption='Egusi'/>
+                    <Card image= {require('../../images/akple.jpg')} caption='Akple'/>
+                    <Card image= {require('../../images/banku.jpg')} caption='Banku'/>
+                    <Card image= {require('../../images/chapati.jpg')} caption='Chapati'/>
+                    <Card image= {require('../../images/fried rice.jpg')} caption='Fried Rice'/>
+                    <Card image= {require('../../images/fries.jpg')} caption='Fries'/>
+                    <Card image= {require('../../images/fufu.jpg')} caption='Fufu'/>
+                    <Card image= {require('../../images/jollof.jpg')} caption='Jollof'/>
+                    <Card image= {require('../../images/pizza.jpg')} caption='Pizza'/>
+                    <Card image= {require('../../images/spaghetti.jpg')} caption='Spaghetti'/>
+                    <Card image= {require('../../images/springrolls.jpg')} caption='Springrolls'/>
                     <Card image= {require('../../images/pancake.jpg')} caption='Pancake'/>
                 </div>
         </div>        
