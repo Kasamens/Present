@@ -1,21 +1,22 @@
 .container{
     display: flex;
     flex-direction: column;
-    border: solid black;
     flex-basis: 100%;
+}
+
+.container > *{
+    color: white;
 }
 
 #card-group{
     display: flex;
     flex-basis: 80%;
-    border: solid black;
     justify-content: space-around;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    border: solid black;
     flex-basis: 33%;
     padding: 10px;
 }
@@ -28,7 +29,6 @@
 }
 
 #about-banner h1{
-    border: solid black;
     padding: 0;
     font-size: 50px;
     font-family: cursive;
@@ -61,3 +61,4 @@
     align-self: center;
     border: solid gold 5px;
 }
+

@@ -4,10 +4,10 @@
   min-height: 100vh;
 }
 
+
 header{
   display: flex;
   justify-content: center;
-  border: solid black;  
 }
 
 main{

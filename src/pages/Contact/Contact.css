@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+#contact-layout > *{
+    color: white;
+}
+
 .double-container{
     display: flex;
     height: 250px;
